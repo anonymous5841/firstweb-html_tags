@@ -1,0 +1,107 @@
+/*html is the parent having two childs*/
+<!DOCTYPE html>
+<html lang="en">
+
+/*head is called child 1 (c1)*/
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>give a name to your website (should be meaningful) as it will appear when the cursor touches the tap bar on the top.</title>
+</head>
+
+/*body is the second child 2 (c2)*/
+/*c1 and c2 can't endup in one another*/
+<body>
+
+/*contains all the information or the content of the website that we see*/
+/*maximum 6 headings can be used as demonstrated below*/
+/*could summon all tags like h1*6 giving you 6 h1 tags at a time*/
+<h1 style="border: 3px solid green;">it is also important hence should be used to write important work / give it the website name so your website comes on the top when searched</h1>
+<h2>determination is needed</h2>
+<h3>sleep is already out of the window for me</h3>
+<h4>practicing what i have learned so far</h4>
+<h5>hope i remember everything and doesn't have to google it and waste my time </h5>
+<h6>gonna work hard !</h6>
+
+<pre style="border: 4px solid rgb(255, 34, 0);">pre tag is used to give desired amount of gaps in your text and
+
+    won't omit the gaps by default when output is shown on the screen as it does in other tags</pre>
+
+<p style="border: 3px solid purple;">p tags are used to write paragraph in a website and are not like h tags we can also use  "lorem" is not a tag but is used to add random text to in your tags is used only as a tool </p>
+<p>we can move our line to the next line by using <br> br tags they don't contain an ending tag there work is just like \n works in writing a code in code block i.e. move to the next line </p>
+
+<pre style="border: 3px solid red;">multiple tags can't be used within one another for now the exception is br tag
+there are block tags/elements that occupied the full width area from right to left on the whole screen,
+inline tags only covers the width or area the text or image is covering and allows you to write things on other side too.
+img tag is used to introduce image in your website. image take has two properties i.e. a source(that tells where the image is)
+and a path(tells where a specific thing is kept).
+we can add image to the website by using two method 1# Absolute path: it is used to tell the location of the image in your computer i.e. telling 
+exactly where the image is kept location of the file in your drive. # absolute path SHOULDN'T be used while attaching the image #
+2 # Relative path : this is given by adding the image within the folder that you are using to write a website in my case FIRST WEBSITE folder 
+along with the index.html file.
+add the image name in src that you have given to the image it is convinient to assign the picture a name and add the name in src
+if the picture type is not written with it add the picture type that you have.
+src full form is sorce
+alt is used to tell the user that there is an image here i this portion hence we write image not found
+in case if the users net is slow or there is anyother issue it is to just let the user know that this space is occupied by something
+vh and vw is better to use than px and %
+% is used in accordance with the screen i.e. if you write 100% in width and height both it will extend the picture in such a way that it will cover whole screen 
+without leaving any space.
+px that pixels adjust picture according to the pixels on the screen but it can cause picture to shrink and expand according to its own desired
+as in a 1000 pixelated it will use its 100 pixels of it 
+vh and vw are better to use as it adjusts the picture according to ones display screen.
+</pre>
+
+<img src="scenery.png" alt="Image not found" width="500vw" height="500vh" style="border: 5px solid black;">
+
+<ul style="border: 3px solid navy;">ul stands for unorder list i.e. it gives text with bullets 
+    <li style="border: 2px solid skyblue;">here</li>
+    <li style="border: 2px solid skyblue;">are</li>
+    <li style="border: 2px solid skyblue;">the </li>
+    <li style="border: 2px solid skyblue;">bullets</li>
+</ul>
+
+<ol style="border: 3px solid green;">ol stands for order list i.e it gives numbers instead of bullets
+<li style="border: 2px solid greenyellow;">here</li>
+<li style="border: 2px solid greenyellow;">is</li>
+<li style="border: 2px solid greenyellow;">the </li>
+<li style="border: 2px solid greenyellow;">numbering</li>
+</ol>
+
+/*li tags defines a list item and is used with parent ol or ul*/
+
+<table style="border: 4px solid darkviolet;">
+    <tr style="border: 3px solid rgb(16, 123, 69);">
+   <th style="border: 2px solid orange ;">th stands for </th>
+   <th style="border: 2px solid orange;">table head </th>
+   <th style="border: 2px solid orange;"></th>
+
+    </tr>
+   <tr style="border: 3px solid rgb(16, 123, 69);">
+
+   <td style="border: 2px solid orange;">td stands for </td>
+   <td style="border: 2px solid orange;">table data </td>
+   <td style="border: 2px solid orange;"></td>
+   </tr style="border: 3px solid ;">
+</table style="border: 4px solid ;">
+
+<pre>  table tag is used to form table in a website. it futher contains th tags it stand for TABLE HEAD,
+  tr i.e. TABLE ROW and td i.e. TABLE DATA.
+these table tag collection is used to make tables. th containing info and td containing info that is opposite to the info of th 
+where tr defines that these are rows the / in the ending tag represent that the this tag is closing
+we can identify if a tag is inline or blocked tag by the borders we have given to each tag. if they cover only the text written they will be inline 
+and if they cover whole area on the right side than it's an inline tag.
+ hence the tags we have used above are all border line tags except of the image tag and the table, th,td,tr tags
+ there is a rule that if a parent is blocked than it's children is also blocked.
+
+ NOTE:
+ we have given borders above in the tags but it is not the preferred way to do we do styling in html by linking 
+ a css file which is in the next file. here borders are given just to understand border and inline tags at initial stage.
+ html is used simply for writting information.
+ </pre>
+
+
+
+</body>
+</html>
